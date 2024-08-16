@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   naive:
-    image: zai7lou/naiveproxy-docker
+    image: ayako359/navieproxy:go1.23
     container_name: naiveproxy
     tty: true
     restart: unless-stopped

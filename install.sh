@@ -538,7 +538,7 @@ runContainer() {
         -p $httpsPort:$httpsPort \
         -v $PWD/data:/data \
         -v $PWD/share:/root/.local/share $certsV \
-        zai7lou/naiveproxy-docker bash /data/entry.sh
+        ayako359/navieproxy:go1.23 bash /data/entry.sh
     }
 }
 

@@ -538,7 +538,7 @@ runContainer() {
         -p $httpsPort:$httpsPort \
         -v $PWD/data:/data \
         -v $PWD/share:/root/.local/share $certsV \
-        ayako359/navieproxy:go1.23 bash /data/entry.sh
+        registry.cn-hangzhou.aliyuncs.com/web_default/naiveproxy:go1.23-al bash /data/entry.sh
     }
 }
 
